@@ -71,4 +71,27 @@ The inherit keyword forces inheritance on a certain property.
 The inherit keyword resets a property to its initial value.
 
 
-8. 
+8. Different between block, inline-block, inline?
+
+img s5.jpg
+img s6.jpg
+
+9. 7-1 pattern?
+
+img s7.jpg   BEM notation
+
+10. SASS
+
+img s8.jpg
+
+Variables: for reusable values such as colors, font-sizes, spacing, etc
+nesting: to nest selectors inside of one another, allowing us to write less code.
+operators: for mathematical operations right inside of CSS.
+partials and imports: to write CSS in different files and importing them all into one single file;
+Mixins: to write reusable pieces of CSS code;
+Functions: similar to mixins, with the difference that they produce a value that can than be used;
+Extends: to make different selectors inherit declarations that are common to all of them.
+
+img s9.jpg
+
+11. 
