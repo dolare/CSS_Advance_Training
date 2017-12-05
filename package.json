@@ -1,0 +1,20 @@
+{
+  "name": "css_advance_training",
+  "version": "1.0.0",
+  "description": "Useful Info:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass Natours/starter/sass/main.scss  Natours/starter/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolare/CSS_Advance_Training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dolare/CSS_Advance_Training/issues"
+  },
+  "homepage": "https://github.com/dolare/CSS_Advance_Training#readme"
+}

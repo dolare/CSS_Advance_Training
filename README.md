@@ -82,6 +82,7 @@ img s7.jpg   BEM notation
 
 10. SASS
 
+npm run node-sass --save-dev
 img s8.jpg
 
 Variables: for reusable values such as colors, font-sizes, spacing, etc
@@ -94,4 +95,31 @@ Extends: to make different selectors inherit declarations that are common to all
 
 img s9.jpg
 
-11. 
+11. Float => height = 0 issue : use clearfix class 
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@include clearfix;
+12. useful statements:
+
+eg : darken(color, 15%), lighten(color, 10%)
+eg: @mixin  @include %extends
+
+@mixin clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@mixin style-link-text($color) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color;
+}
+    
+@include style-link-text($text-dark)
