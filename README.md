@@ -123,3 +123,10 @@ eg: @mixin  @include %extends
 }
     
 @include style-link-text($text-dark)
+
+
+13. Three prinsiples of responsive design
+
+    a. Fluid Grids and Layout: Float vs Flexbox vs Css Grid
+    b. Flexible responsive images
+    c. Media Queries
